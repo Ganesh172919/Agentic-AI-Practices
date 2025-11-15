@@ -1,0 +1,33 @@
+# Core dependencies for Agentic AI Practices
+# Install: pip install -r requirements.txt
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-core>=0.1.0
+langgraph>=0.1.0
+
+# MCP adapters (for main.py MCP integration)
+langchain-mcp-adapters>=0.1.11
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Optional but recommended
+# Uncomment based on your needs:
+
+# For async operations
+# aiohttp>=3.9.0
+
+# For better logging
+# colorlog>=6.8.0
+
+# For data handling
+# pandas>=2.0.0
+
+# For token counting
+# tiktoken>=0.5.0
+
+# For testing
+# pytest>=7.4.0
+# pytest-asyncio>=0.21.0
